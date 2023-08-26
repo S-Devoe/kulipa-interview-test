@@ -14,8 +14,8 @@ const WalletContent = () => {
             Wallet balance
           </h2>
           <div className="w-full border-t-[1px] border-t-plain mt-[0.85rem] max-w-[450px] pt-3  ">
-            <h3 className="text-blackGray font-semibold text-[2rem] ">
-              {convertToCurrency(Number(123456789))}
+            <h3 className="text-blackGray font-semibold text-[1.5rem] ">
+              {convertToCurrency(Number(123456))}
             </h3>
           </div>
         </div>
